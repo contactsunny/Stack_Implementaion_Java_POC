@@ -41,4 +41,8 @@ class StackImpl<T> {
 
         return stack;
     }
+
+    void flush() {
+        this.list = new ArrayList<>();
+    }
 }
